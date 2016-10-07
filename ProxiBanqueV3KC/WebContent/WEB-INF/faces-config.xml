@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faces-config
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_1.xsd"
+    version="2.1">
+
+	<managed-bean>
+		<description>UserManagedBean</description>
+		<managed-bean-name>userManagedBean</managed-bean-name>
+		<managed-bean-class>com.primefaces.sample.UserManagedBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<description>RegistrationBean</description>
+		<managed-bean-name>registrationBean</managed-bean-name>
+		<managed-bean-class>com.primefaces.sample2.RegistrationBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>
+
+
+</faces-config>
